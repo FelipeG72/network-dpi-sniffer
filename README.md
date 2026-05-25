@@ -32,3 +32,11 @@ Protocol Identification
 Filtering
 ↓
 Output / Logging
+
+## Features
+
+- Packet capture
+- Protocol identification
+- Source / destination IP extraction
+- Traffic visibility
+- Packet filtering
