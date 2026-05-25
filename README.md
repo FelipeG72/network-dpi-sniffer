@@ -20,7 +20,8 @@ A portfolio-grade network analysis tool built in Python using Scapy, engineered 
 Install the required network manipulation library:
 ```bash
 pip install scapy
-----------
+```
+
 ## Architecture
 
 Packet Capture Layer
@@ -33,10 +34,12 @@ Filtering
 ↓
 Output / Logging
 
-## Features
+## Limitations
 
-- Packet capture
-- Protocol identification
-- Source / destination IP extraction
-- Traffic visibility
-- Packet filtering
+- Does not decrypt HTTPS traffic
+- Educational project
+- Requires Npcap on Windows
+
+- ## Disclaimer
+
+This tool is for educational use in controlled environments only.
