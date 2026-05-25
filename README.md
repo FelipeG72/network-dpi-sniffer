@@ -20,3 +20,15 @@ A portfolio-grade network analysis tool built in Python using Scapy, engineered 
 Install the required network manipulation library:
 ```bash
 pip install scapy
+
+## Architecture
+
+Packet Capture Layer
+↓
+Packet Parsing
+↓
+Protocol Identification
+↓
+Filtering
+↓
+Output / Logging
